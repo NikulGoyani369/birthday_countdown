@@ -30,7 +30,7 @@ function countdown() {
     const minutes = Math.floor((timeSpan % hour) / minute)
     const seconds = Math.floor((timeSpan % minute) / second)
 
-        timeLeft.innerHTML = days + ' days ' + hours + ' hours ' + minutes + ' minutes ' + seconds + ' seconds ' + " \n\n Neel_bhai Happy ' Birthday ' Count_Down!!!!"  
+        timeLeft.innerHTML = days + ' days ' + hours + ' hours ' + minutes + ' minutes ' + seconds + ' seconds ' + " \n\n Neel_bhai Happy ' Birthday ' Count_Down..!!!!"  
 }
 
 timerId = setInterval(countdown, second)
