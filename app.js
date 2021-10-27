@@ -14,7 +14,7 @@ function countdown() {
     
     const today = new Date()
     const timeSpan = birthday - today    
-    console.log(timeSpan);
+//     console.log(timeSpan);
     if(timeSpan <= -day) {
         timeLeft.innerHTML = "Hope you had a nice Birthday!"
         clearInterval(timerId)
