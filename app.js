@@ -1,6 +1,6 @@
 const timeLeft = document.getElementById('time-left')
 
-const birthday = new Date('07/19/2022')
+const birthday = new Date('08/17/2024')
 const second = 1000
 const minute = second *60
 const hour = minute *60
@@ -16,12 +16,12 @@ function countdown() {
     const timeSpan = birthday - today    
 //     console.log(timeSpan);
     if(timeSpan <= -day) {
-        timeLeft.innerHTML = "Hope you had a nice Birthday!"
+        timeLeft.innerHTML = "We Love you P_Prabodh Swamiji!"
         clearInterval(timerId)
         return
     }
     else if(timeSpan <= 0) {
-        timeLeft.innerHTML = "Happy Birthday!!!!"
+        timeLeft.innerHTML = "Happy Birthday P_Prabodh Swamiji Birthday!!!!"
         clearInterval(timerId)
     }
     
